@@ -1997,7 +1997,7 @@ namespace SiriusQualityPhenology.Strategies
             s.calendarMoments= calendarMoments;
             s.calendarDates= calendarDates;
             s.calendarCumuls= calendarCumuls;
-            ShootNumber.Init(s, s1, r, ex);
+            ShootNumber.Init(s, s1, r, a, ex);
         }
 
         public PhenologyComponent(PhenologyComponent toCopy): this() // copy constructor 

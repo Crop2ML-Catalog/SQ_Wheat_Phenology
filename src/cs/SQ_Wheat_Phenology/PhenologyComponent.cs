@@ -607,7 +607,7 @@ public class PhenologyComponent
         s.calendarMoments= calendarMoments;
         s.calendarDates= calendarDates;
         s.calendarCumuls= calendarCumuls;
-        ShootNumber.Init(s, s1, r, ex);
+        _ShootNumber.Init(s, s1, r, ex);
 
     }
     

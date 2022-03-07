@@ -9,12 +9,15 @@ def model_gaimean(float gAI=0.0,
     """
 
     Average GAI on a specific thermal time window
-    Author: Loïc Manceau
-    Reference: Modeling development phase in the 
-			Wheat Simulation Model SiriusQuality.
-			See documentation at http://www1.clermont.inra.fr/siriusquality/?page_id=427
-    Institution: INRA
-    Abstract: Calculate GAI mean
+    Author: Peter D. Jamieson, Glen S. Francis, Derick R. Wilson, Robert J. Martin
+    Reference: https://doi.org/10.1016/0168-1923(94)02214-5
+    Institution: New Zealand Institute for Crop and Food Research Ltd.,
+            New Zealand Institute for Crop and Food Research Ltd.,
+            New Zealand Institute for Crop and Food Research Ltd.,
+            New Zealand Institute for Crop and Food Research Ltd.
+        
+    ExtendedDescription: Calculate GAI mean
+    ShortDescription: Calculate GAI mean
 
     """
     cdef float gAImean

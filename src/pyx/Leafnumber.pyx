@@ -8,12 +8,15 @@ def model_leafnumber(float deltaTT=23.5895677277199,
     """
 
     CalculateLeafNumber Model
-    Author: Pierre MARTRE
-    Reference: Modeling development phase in the 
-                Wheat Simulation Model SiriusQuality.
-                See documentation at http://www1.clermont.inra.fr/siriusquality/?page_id=427
-    Institution: INRA Montpellier
-    Abstract: calculate leaf number. LeafNumber increase is caped at one more leaf per day
+    Author: Peter D. Jamieson, Glen S. Francis, Derick R. Wilson, Robert J. Martin
+    Reference: https://doi.org/10.1016/0168-1923(94)02214-5
+    Institution: New Zealand Institute for Crop and Food Research Ltd.,
+            New Zealand Institute for Crop and Food Research Ltd.,
+            New Zealand Institute for Crop and Food Research Ltd.,
+            New Zealand Institute for Crop and Food Research Ltd.
+        
+    ExtendedDescription: calculate leaf number. LeafNumber increase is caped at one more leaf per day
+    ShortDescription: calculate leaf number. LeafNumber increase is caped at one more leaf per day
 
     """
     cdef float leafNumber

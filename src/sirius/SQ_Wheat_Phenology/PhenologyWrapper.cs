@@ -11,6 +11,7 @@ namespace SiriusModel.Model.Phenology
         private PhenologyState s;
         private PhenologyRate r;
         private PhenologyAuxiliary a;
+        private PhenologyExogenous ex;
         private PhenologyComponent phenologyComponent;
 
         public PhenologyWrapper(Universe universe) : base(universe)
@@ -18,59 +19,60 @@ namespace SiriusModel.Model.Phenology
             s = new PhenologyState();
             r = new PhenologyRate();
             a = new PhenologyAuxiliary();
+            ex = new PhenologyExogenous();
             phenologyComponent = new Phenology();
             loadParameters();
         }
 
-        public double ptq{ get { return s.ptq;}} 
-     
-        public string currentZadokStage{ get { return s.currentZadokStage;}} 
-     
-        public int hasFlagLeafLiguleAppeared{ get { return s.hasFlagLeafLiguleAppeared;}} 
-     
-        public int hasZadokStageChanged{ get { return s.hasZadokStageChanged;}} 
-     
-        public List<double> listPARTTWindowForPTQ{ get { return s.listPARTTWindowForPTQ;}} 
-     
-        public int hasLastPrimordiumAppeared{ get { return s.hasLastPrimordiumAppeared;}} 
-     
-        public List<double> listTTShootWindowForPTQ{ get { return s.listTTShootWindowForPTQ;}} 
-     
-        public List<double> listTTShootWindowForPTQ1{ get { return s.listTTShootWindowForPTQ1;}} 
-     
-        public List<string> calendarMoments{ get { return s.calendarMoments;}} 
-     
-        public double canopyShootNumber{ get { return s.canopyShootNumber;}} 
-     
-        public List<DateTime> calendarDates{ get { return s.calendarDates;}} 
-     
-        public List<int> leafTillerNumberArray{ get { return s.leafTillerNumberArray;}} 
-     
-        public double vernaprog{ get { return s.vernaprog;}} 
-     
         public double phyllochron{ get { return s.phyllochron;}} 
-     
-        public double leafNumber{ get { return s.leafNumber;}} 
-     
-        public int numberTillerCohort{ get { return s.numberTillerCohort;}} 
-     
-        public List<double> tilleringProfile{ get { return s.tilleringProfile;}} 
-     
-        public double averageShootNumberPerPlant{ get { return s.averageShootNumberPerPlant;}} 
      
         public double minFinalNumber{ get { return s.minFinalNumber;}} 
      
-        public double finalLeafNumber{ get { return s.finalLeafNumber;}} 
+        public List<DateTime> calendarDates{ get { return s.calendarDates;}} 
      
-        public double phase{ get { return s.phase;}} 
+        public List<string> calendarMoments{ get { return s.calendarMoments;}} 
+     
+        public double ptq{ get { return s.ptq;}} 
+     
+        public double leafNumber{ get { return s.leafNumber;}} 
+     
+        public double pastMaxAI{ get { return s.pastMaxAI;}} 
      
         public List<double> listGAITTWindowForPTQ{ get { return s.listGAITTWindowForPTQ;}} 
      
+        public List<double> listPARTTWindowForPTQ{ get { return s.listPARTTWindowForPTQ;}} 
+     
+        public List<double> listTTShootWindowForPTQ1{ get { return s.listTTShootWindowForPTQ1;}} 
+     
+        public List<double> listTTShootWindowForPTQ{ get { return s.listTTShootWindowForPTQ;}} 
+     
         public List<double> calendarCumuls{ get { return s.calendarCumuls;}} 
+     
+        public double vernaprog{ get { return s.vernaprog;}} 
+     
+        public int hasLastPrimordiumAppeared{ get { return s.hasLastPrimordiumAppeared;}} 
+     
+        public double phase{ get { return s.phase;}} 
+     
+        public double finalLeafNumber{ get { return s.finalLeafNumber;}} 
+     
+        public int hasZadokStageChanged{ get { return s.hasZadokStageChanged;}} 
+     
+        public string currentZadokStage{ get { return s.currentZadokStage;}} 
+     
+        public List<double> tilleringProfile{ get { return s.tilleringProfile;}} 
+     
+        public List<int> leafTillerNumberArray{ get { return s.leafTillerNumberArray;}} 
+     
+        public double canopyShootNumber{ get { return s.canopyShootNumber;}} 
+     
+        public int numberTillerCohort{ get { return s.numberTillerCohort;}} 
+     
+        public double averageShootNumberPerPlant{ get { return s.averageShootNumberPerPlant;}} 
      
         public double gAImean{ get { return s.gAImean;}} 
      
-        public double pastMaxAI{ get { return s.pastMaxAI;}} 
+        public int hasFlagLeafLiguleAppeared{ get { return s.hasFlagLeafLiguleAppeared;}} 
      
 
         public PhenologyWrapper(Universe universe, PhenologyWrapper toCopy, bool copyAll) : base(universe)
@@ -78,6 +80,7 @@ namespace SiriusModel.Model.Phenology
             s = (toCopy.s != null) ? new PhenologyState(toCopy.s, copyAll) : null;
             r = (toCopy.r != null) ? new PhenologyRate(toCopy.r, copyAll) : null;
             a = (toCopy.a != null) ? new PhenologyAuxiliary(toCopy.a, copyAll) : null;
+            ex = (toCopy.ex != null) ? new PhenologyExogenous(toCopy.ex, copyAll) : null;
             if (copyAll)
             {
                 phenologyComponent = (toCopy.phenologyComponent != null) ? new Phenology(toCopy.phenologyComponent) : null;
@@ -147,7 +150,7 @@ namespace SiriusModel.Model.Phenology
             a.gAI = gAI;
             a.pAR = pAR;
             a.grainCumulTT = grainCumulTT;
-            phenologyComponent.CalculateModel(s,s1, r, a);
+            phenologyComponent.CalculateModel(s,s1, r, a, ex);
         }
 
     }

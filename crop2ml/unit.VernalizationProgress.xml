@@ -3,18 +3,20 @@
 <ModelUnit modelid="SQ.WheatPhenology.VernalizationProgress" name="VernalizationProgress" timestep="1" version="1.0">
     <Description>
         <Title>VernalizationProgress Model</Title>
-        <Authors>Pierre MARTRE</Authors>
-        <Institution>INRA Montpellier</Institution>
-        <Reference>Modeling development phase in the 
-                Wheat Simulation Model SiriusQuality.
-                See documentation at http://www1.clermont.inra.fr/siriusquality/?page_id=427</Reference>
-        <Abstract><![CDATA[Calculate progress (VernaProg) towards vernalization, but there 
+        <Authors>Peter D. Jamieson, Glen S. Francis, Derick R. Wilson, Robert J. Martin</Authors>
+        <Institution>New Zealand Institute for Crop and Food Research Ltd.,
+            New Zealand Institute for Crop and Food Research Ltd.,
+            New Zealand Institute for Crop and Food Research Ltd.,
+            New Zealand Institute for Crop and Food Research Ltd.
+        </Institution>
+        <Reference>https://doi.org/10.1016/0168-1923(94)02214-5</Reference>
+        <ExtendedDescription><![CDATA[Calculate progress (VernaProg) towards vernalization, but there 
         			is no vernalization below minTvern 
         			and above maxTvern . The maximum value of VernaProg is 1.
         			Progress towards full vernalization is a linear function of shoot 
         			temperature (soil temperature until leaf # reach MaxLeafSoil and then
         			 canopy temperature)]]>
-    	</Abstract>
+    	</ExtendedDescription>
         <ShortDescription>Calculate progress (VernaProg) towards vernalization, but there 
             is no vernalization below minTvern 
             and above maxTvern . The maximum value of VernaProg is 1.

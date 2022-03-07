@@ -1981,10 +1981,10 @@ namespace Phenology.Strategies
 
         public void Init(Phenology.DomainClass.PhenologyState s,Phenology.DomainClass.PhenologyState s1,Phenology.DomainClass.PhenologyRate r,Phenology.DomainClass.PhenologyAuxiliary a,Phenology.DomainClass.PhenologyExogenous ex)
         {
-            s.calendarMoments.Add("Sowing");
-            s.calendarCumuls.Add(0.0d);
-            s.calendarDates.Add(sowingDate);
-            s.minFinalNumber = 5.5d;
+            s1.calendarMoments.Add("Sowing");
+            s1.calendarCumuls.Add(0.0d);
+            s1.calendarDates.Add(sowingDate);
+            s1.minFinalNumber = 5.5d;
         }
 
         public PhenologyComponent(PhenologyComponent toCopy): this() // copy constructor 

@@ -3,12 +3,16 @@
 <ModelUnit modelid="SQ.WheatPhenology.CumulTTFrom" name="CumulTTFrom" timestep="1" version="1.0">
     <Description>
         <Title>CumulTTFrom Model</Title>
-        <Authors>Pierre Martre</Authors>
-        <Institution>INRA Montpellier</Institution>
+        <Authors>Peter D. Jamieson, Glen S. Francis, Derick R. Wilson, Robert J. Martin</Authors>
+        <Institution>New Zealand Institute for Crop and Food Research Ltd.,
+                    New Zealand Institute for Crop and Food Research Ltd.,
+                    New Zealand Institute for Crop and Food Research Ltd.,
+                    New Zealand Institute for Crop and Food Research Ltd.
+        </Institution>
         <Reference>Modeling development phase in the 
                 Wheat Simulation Model SiriusQuality.
                 See documentation at http://www1.clermont.inra.fr/siriusquality/?page_id=427</Reference>
-        <Abstract>Calculate the difference of the cumul thermal time at the current time and the one at three development phases  </Abstract>
+        <ExtendedDescription>Calculate the difference of the cumul thermal time at the current time and the one at three development phases  </ExtendedDescription>
         <ShortDescription>Difference of the cumul thermal times</ShortDescription>
     </Description>
     <Inputs>

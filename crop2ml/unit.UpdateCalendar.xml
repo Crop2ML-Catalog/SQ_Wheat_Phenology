@@ -4,12 +4,14 @@
 
     <Description>
         <Title>Calendar Model</Title>
-        <Authors>Pierre Martre</Authors>
-        <Institution>INRA Montpellier</Institution>
-        <Reference>Modeling development phase in the 
-                Wheat Simulation Model SiriusQuality.
-                See documentation at http://www1.clermont.inra.fr/siriusquality/?page_id=427</Reference>
-        <Abstract>Lists containing for each stage the date it occurs as well as a copy of all types of cumulated thermal times </Abstract>
+        <Authors>Peter D. Jamieson, Glen S. Francis, Derick R. Wilson, Robert J. Martin</Authors>
+        <Institution>New Zealand Institute for Crop and Food Research Ltd.,
+            New Zealand Institute for Crop and Food Research Ltd.,
+            New Zealand Institute for Crop and Food Research Ltd.,
+            New Zealand Institute for Crop and Food Research Ltd.
+        </Institution>
+        <Reference>https://doi.org/10.1016/0168-1923(94)02214-5</Reference>
+        <ExtendedDescription>Lists containing for each stage the date it occurs as well as a copy of all types of cumulated thermal times </ExtendedDescription>
         <ShortDescription>Lists containing for each stage the date it occurs as well as a copy of all types of cumulated thermal times</ShortDescription>
     </Description>
     <Inputs>

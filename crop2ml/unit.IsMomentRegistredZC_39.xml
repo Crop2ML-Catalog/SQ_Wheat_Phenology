@@ -3,12 +3,14 @@
 <ModelUnit modelid="SQ.WheatPhenology.IsMomentRegistredZC_39" name="IsMomentRegistredZC_39" timestep="1" version="1.0">
     <Description>
         <Title>Is FlagLeafLiguleJustVisible Model</Title>
-        <Authors>Pierre Martre</Authors>
-        <Institution>INRA Montpellier</Institution>
-        <Reference>Modeling development phase in the 
-                Wheat Simulation Model SiriusQuality.
-                See documentation at http://www1.clermont.inra.fr/siriusquality/?page_id=427</Reference>
-        <Abstract>if FlagLeafLiguleJustVisible is already Registred </Abstract>
+        <Authors>Peter D. Jamieson, Glen S. Francis, Derick R. Wilson, Robert J. Martin</Authors>
+        <Institution>New Zealand Institute for Crop and Food Research Ltd.,
+            New Zealand Institute for Crop and Food Research Ltd.,
+            New Zealand Institute for Crop and Food Research Ltd.,
+            New Zealand Institute for Crop and Food Research Ltd.
+        </Institution>
+        <Reference>https://doi.org/10.1016/0168-1923(94)02214-5</Reference>
+        <ExtendedDescription>if FlagLeafLiguleJustVisible is already Registred </ExtendedDescription>
         <ShortDescription>if FlagLeafLiguleJustVisible is already Registred </ShortDescription>
     </Description>
     <Inputs>

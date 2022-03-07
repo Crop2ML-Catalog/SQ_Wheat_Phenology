@@ -595,10 +595,20 @@ public class PhenologyComponent
 
     public void Init(PhenologyState s, PhenologyState s1, PhenologyRate r, PhenologyAuxiliary a, PhenologyExogenous ex)
     {
-        s.calendarMoments.Add("Sowing");
-        s.calendarCumuls.Add(0.0d);
-        s.calendarDates.Add(sowingDate);
-        s.minFinalNumber = 5.5d;
+        List<string> calendarMoments_t1 = new List<string>();
+        List<double> calendarCumuls_t1 = new List<double>();
+        List<DateTime> calendarDates_t1 = new List<DateTime>();
+
+        calendarMoments_t1.Add("Sowing");
+        calendarCumuls_t1.Add(0.0d);
+        calendarDates_t1.Add(sowingDate);
+        minFinalNumber_t1 = 5.5d;
+
+        s.calendarMoments= calendarMoments;
+        s.calendarDates= calendarDates;
+        s.calendarCumuls= calendarCumuls;
+        ShootNumber.Init(s, s1, r, ex);
+
     }
     
 }

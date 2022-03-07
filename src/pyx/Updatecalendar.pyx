@@ -11,12 +11,15 @@ def model_updatecalendar(float cumulTT=741.510096671757,
     """
 
     Calendar Model
-    Author: Pierre Martre
-    Reference: Modeling development phase in the 
-                Wheat Simulation Model SiriusQuality.
-                See documentation at http://www1.clermont.inra.fr/siriusquality/?page_id=427
-    Institution: INRA Montpellier
-    Abstract: Lists containing for each stage the date it occurs as well as a copy of all types of cumulated thermal times 
+    Author: Peter D. Jamieson, Glen S. Francis, Derick R. Wilson, Robert J. Martin
+    Reference: https://doi.org/10.1016/0168-1923(94)02214-5
+    Institution: New Zealand Institute for Crop and Food Research Ltd.,
+            New Zealand Institute for Crop and Food Research Ltd.,
+            New Zealand Institute for Crop and Food Research Ltd.,
+            New Zealand Institute for Crop and Food Research Ltd.
+        
+    ExtendedDescription: Lists containing for each stage the date it occurs as well as a copy of all types of cumulated thermal times 
+    ShortDescription: Lists containing for each stage the date it occurs as well as a copy of all types of cumulated thermal times
 
     """
     if (phase >= 1.0 and phase < 2.0) and ("Emergence" not in calendarMoments ):

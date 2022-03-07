@@ -22,12 +22,15 @@ def model_phyllochron(float fixPhyll=5.0,
     """
 
     Phyllochron Model
-    Author: Pierre Martre
-    Reference: Modeling development phase in the 
-                Wheat Simulation Model SiriusQuality.
-                See documentation at http://www1.clermont.inra.fr/siriusquality/?page_id=427
-    Institution: INRA Montpellier
-    Abstract: Calculate different types of phyllochron 
+    Author: Peter D. Jamieson, Glen S. Francis, Derick R. Wilson, Robert J. Martin
+    Reference: https://doi.org/10.1016/0168-1923(94)02214-5
+    Institution: New Zealand Institute for Crop and Food Research Ltd.,
+            New Zealand Institute for Crop and Food Research Ltd.,
+            New Zealand Institute for Crop and Food Research Ltd.,
+            New Zealand Institute for Crop and Food Research Ltd.
+        
+    ExtendedDescription: Calculate different types of phyllochron 
+    ShortDescription: Calculate different types of phyllochron 
 
     """
     cdef float phyllochron

@@ -3,12 +3,14 @@
 <ModelComposition name="Phenology" id="SQ.WheatPhenology.Phenology" version="001" timestep ="1">
 	<Description>
 		<Title>Phenology</Title>
-		<Authors>Pierre MARTRE</Authors>
-		<Institution>INRA/LEPSE</Institution>
-		<Reference>Modeling development phase in the 
-                Wheat Simulation Model SiriusQuality.
-                See documentation at http://www1.clermont.inra.fr/siriusquality/?page_id=427</Reference>
-		<Abstract>see documentation</Abstract>
+		<Authors>Peter D. Jamieson, Glen S. Francis, Derick R. Wilson, Robert J. Martin</Authors>
+        <Institution>New Zealand Institute for Crop and Food Research Ltd.,
+            New Zealand Institute for Crop and Food Research Ltd.,
+            New Zealand Institute for Crop and Food Research Ltd.,
+            New Zealand Institute for Crop and Food Research Ltd.
+        </Institution>
+		<Reference>https://doi.org/10.1016/0168-1923(94)02214-5</Reference>
+		<ExtendedDescription>see documentation</ExtendedDescription>
 		<ShortDescription>It determines the timing of crop development</ShortDescription>
 	</Description>
 	<Initialization name="init.Phenology" language="Cyml" filename="algo/pyx/init.Phenology.pyx"/>

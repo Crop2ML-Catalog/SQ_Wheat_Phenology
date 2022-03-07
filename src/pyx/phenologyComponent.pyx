@@ -184,34 +184,32 @@ def init_phenology(float aMXLFNO=24.0,
                      float slopeTSFLN=0.9,
                      float intTSFLN=0.9):
 
-    cdef str currentZadokStage ='' 
-    cdef int hasZadokStageChanged = 0
-    cdef int hasFlagLeafLiguleAppeared = 0
-    cdef floatlist listPARTTWindowForPTQ
-    cdef int hasLastPrimordiumAppeared = 0
-    cdef floatlist listTTShootWindowForPTQ
-    cdef floatlist listTTShootWindowForPTQ1
+    cdef float phyllochron_t1 = 0.0
+    cdef float minFinalNumber_t1 = 0.0
+    cdef datelist calendarDates_t1 
+    cdef stringlist calendarMoments_t1
     cdef float ptq = 0.0
-    cdef stringlist calendarMoments
-    cdef float canopyShootNumber = 0.0
-    cdef datelist calendarDates 
-    cdef intlist leafTillerNumberArray
-    cdef float vernaprog = 0.0
-    cdef float phyllochron = 0.0
-    cdef float leafNumber = 0.0
-    cdef int numberTillerCohort = 0
-    cdef floatlist tilleringProfile
-    cdef float averageShootNumberPerPlant = 0.0
-    cdef float minFinalNumber = 0.0
-    cdef float finalLeafNumber = 0.0
-    cdef float phase = 0.0
-    cdef floatlist listGAITTWindowForPTQ
-    cdef floatlist calendarCumuls
-    cdef float gAImean = 0.0
-    cdef float pastMaxAI = 0.0
-    calendarMoments.append("Sowing");
-    calendarCumuls.append(0.0);
-    calendarDates.append(sowingDate);
-    minFinalNumber = 5.5;        
+    cdef float leafNumber_t1 = 0.0
+    cdef float pastMaxAI_t1 = 0.0
+    cdef floatlist listGAITTWindowForPTQ_t1
+    cdef floatlist listPARTTWindowForPTQ_t1
+    cdef floatlist listTTShootWindowForPTQ1_t1
+    cdef floatlist listTTShootWindowForPTQ_t1
+    cdef floatlist calendarCumuls_t1
+    cdef float vernaprog_t1 = 0.0
+    cdef int hasLastPrimordiumAppeared_t1 = 0
+    cdef float phase_t1 = 0.0
+    cdef float finalLeafNumber_t1 = 0.0
+    cdef int hasZadokStageChanged_t1 = 0
+    cdef str currentZadokStage ='' 
+    cdef int hasFlagLeafLiguleAppeared = 0
+    cdef int hasFlagLeafLiguleAppeared_t1 = 0
+    cdef floatlist tilleringProfile_t1
+    cdef intlist leafTillerNumberArray_t1
+    cdef float canopyShootNumber_t1 = 0.0
+    calendarMoments_t1.append("Sowing");
+    calendarCumuls_t1.append(0.0);
+    calendarDates_t1.append(sowingDate);
+    minFinalNumber_t1 = 5.5;        
     #model_shootnumber.Init();
-    return  currentZadokStage, hasZadokStageChanged, hasFlagLeafLiguleAppeared, listPARTTWindowForPTQ, hasLastPrimordiumAppeared, listTTShootWindowForPTQ, listTTShootWindowForPTQ1, ptq, calendarMoments, canopyShootNumber, calendarDates, leafTillerNumberArray, vernaprog, phyllochron, leafNumber, numberTillerCohort, tilleringProfile, averageShootNumberPerPlant, minFinalNumber, finalLeafNumber, phase, listGAITTWindowForPTQ, calendarCumuls, gAImean, pastMaxAI
+    return  phyllochron_t1, minFinalNumber_t1, calendarDates_t1, calendarMoments_t1, ptq, leafNumber_t1, pastMaxAI_t1, listGAITTWindowForPTQ_t1, listPARTTWindowForPTQ_t1, listTTShootWindowForPTQ1_t1, listTTShootWindowForPTQ_t1, calendarCumuls_t1, vernaprog_t1, hasLastPrimordiumAppeared_t1, phase_t1, finalLeafNumber_t1, hasZadokStageChanged_t1, currentZadokStage, hasFlagLeafLiguleAppeared, hasFlagLeafLiguleAppeared_t1, tilleringProfile_t1, leafTillerNumberArray_t1, canopyShootNumber_t1

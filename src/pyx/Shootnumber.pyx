@@ -10,12 +10,15 @@ def model_shootnumber(float canopyShootNumber_t1=288.0,
     """
 
     CalculateShootNumber Model
-    Author: Pierre MARTRE
-    Reference: Modeling development phase in the 
-                Wheat Simulation Model SiriusQuality.
-                See documentation at http://www1.clermont.inra.fr/siriusquality/?page_id=427
-    Institution: INRA/LEPSE Montpellier
-    Abstract: calculate the shoot number and update the related variables if needed
+    Author: Peter D. Jamieson, Glen S. Francis, Derick R. Wilson, Robert J. Martin
+    Reference: https://doi.org/10.1016/0168-1923(94)02214-5
+    Institution: New Zealand Institute for Crop and Food Research Ltd.,
+            New Zealand Institute for Crop and Food Research Ltd.,
+            New Zealand Institute for Crop and Food Research Ltd.,
+            New Zealand Institute for Crop and Food Research Ltd.
+        
+    ExtendedDescription: calculate the shoot number and update the related variables if needed
+    ShortDescription: calculate the shoot number and update the related variables if needed
 
     """
     cdef float averageShootNumberPerPlant

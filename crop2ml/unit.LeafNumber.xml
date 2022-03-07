@@ -3,12 +3,14 @@
 <ModelUnit modelid="SQ.WheatPhenology.LeafNumber" name="LeafNumber" timestep="1" version="1.0">
     <Description>
         <Title>CalculateLeafNumber Model</Title>
-        <Authors>Pierre MARTRE</Authors>
-        <Institution>INRA Montpellier</Institution>
-        <Reference>Modeling development phase in the 
-                Wheat Simulation Model SiriusQuality.
-                See documentation at http://www1.clermont.inra.fr/siriusquality/?page_id=427</Reference>
-        <Abstract>calculate leaf number. LeafNumber increase is caped at one more leaf per day</Abstract>
+        <Authors>Peter D. Jamieson, Glen S. Francis, Derick R. Wilson, Robert J. Martin</Authors>
+        <Institution>New Zealand Institute for Crop and Food Research Ltd.,
+            New Zealand Institute for Crop and Food Research Ltd.,
+            New Zealand Institute for Crop and Food Research Ltd.,
+            New Zealand Institute for Crop and Food Research Ltd.
+        </Institution>
+        <Reference>https://doi.org/10.1016/0168-1923(94)02214-5</Reference>
+        <ExtendedDescription>calculate leaf number. LeafNumber increase is caped at one more leaf per day</ExtendedDescription>
         <ShortDescription>calculate leaf number. LeafNumber increase is caped at one more leaf per day</ShortDescription>
     </Description>
     <Inputs>

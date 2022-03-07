@@ -3,12 +3,14 @@
 <ModelUnit modelid="SQ.WheatPhenology.ShootNumber" name="ShootNumber" timestep="1" version="1.0">
     <Description>
         <Title>CalculateShootNumber Model</Title>
-        <Authors>Pierre MARTRE</Authors>
-        <Institution>INRA/LEPSE Montpellier</Institution>
-        <Reference>Modeling development phase in the 
-                Wheat Simulation Model SiriusQuality.
-                See documentation at http://www1.clermont.inra.fr/siriusquality/?page_id=427</Reference>
-        <Abstract>calculate the shoot number and update the related variables if needed</Abstract>
+        <Authors>Peter D. Jamieson, Glen S. Francis, Derick R. Wilson, Robert J. Martin</Authors>
+        <Institution>New Zealand Institute for Crop and Food Research Ltd.,
+            New Zealand Institute for Crop and Food Research Ltd.,
+            New Zealand Institute for Crop and Food Research Ltd.,
+            New Zealand Institute for Crop and Food Research Ltd.
+        </Institution>
+        <Reference>https://doi.org/10.1016/0168-1923(94)02214-5</Reference>
+        <ExtendedDescription>calculate the shoot number and update the related variables if needed</ExtendedDescription>
         <ShortDescription>calculate the shoot number and update the related variables if needed</ShortDescription>
     </Description>
     <Inputs>

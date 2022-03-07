@@ -82,13 +82,16 @@ public class UpdatePhase
         //- Name: UpdatePhase -Version: 1.0, -Time step: 1
         //- Description:
     //            * Title: UpdatePhase Model
-    //            * Author: Pierre MARTRE
-    //            * Reference: Modeling development phase in the 
-    //                Wheat Simulation Model SiriusQuality.
-    //                See documentation at http://www1.clermont.inra.fr/siriusquality/?page_id=427
-    //            * Institution: INRA Montpellier
-    //            * Abstract: This strategy advances the phase and calculate the final leaf number
+    //            * Author: Peter D. Jamieson, Glen S. Francis, Derick R. Wilson, Robert J. Martin
+    //            * Reference: https://doi.org/10.1016/0168-1923(94)02214-5
+    //            * Institution: New Zealand Institute for Crop and Food Research Ltd.,
+    //            New Zealand Institute for Crop and Food Research Ltd.,
+    //            New Zealand Institute for Crop and Food Research Ltd.,
+    //            New Zealand Institute for Crop and Food Research Ltd.
+    //        
+    //            * ExtendedDescription: This strategy advances the phase and calculates the final leaf number
     //    	
+    //            * ShortDescription: This strategy advances the phase and calculates the final leaf number
         //- inputs:
     //            * name: cumulTT
     //                          ** description : cumul thermal times at current date

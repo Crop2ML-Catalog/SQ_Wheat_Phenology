@@ -3,13 +3,15 @@
 <ModelUnit modelid="SQ.WheatPhenology.UpdateLeafFlag" name="UpdateLeafFlag" timestep="1" version="1.0">
     <Description>
         <Title>UpdateLeafFlag Model</Title>
-        <Authors>Pierre MARTRE</Authors>
-        <Institution>INRA Montpellier</Institution>
-        <Reference>Modeling development phase in the 
-                Wheat Simulation Model SiriusQuality.
-                See documentation at http://www1.clermont.inra.fr/siriusquality/?page_id=427</Reference>
-        <Abstract><![CDATA[tells if flag leaf has appeared and update the calendar if so]]>
-    	</Abstract>
+        <Authors>Peter D. Jamieson, Glen S. Francis, Derick R. Wilson, Robert J. Martin</Authors>
+        <Institution>New Zealand Institute for Crop and Food Research Ltd.,
+            New Zealand Institute for Crop and Food Research Ltd.,
+            New Zealand Institute for Crop and Food Research Ltd.,
+            New Zealand Institute for Crop and Food Research Ltd.
+        </Institution>
+        <Reference>https://doi.org/10.1016/0168-1923(94)02214-5</Reference>
+        <ExtendedDescription><![CDATA[tells if flag leaf has appeared and update the calendar if so]]>
+    	</ExtendedDescription>
         <ShortDescription>tells if flag leaf has appeared and update the calendar if so</ShortDescription>
     </Description>
     <Inputs>

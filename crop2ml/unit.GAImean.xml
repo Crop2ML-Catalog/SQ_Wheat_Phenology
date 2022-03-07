@@ -3,12 +3,14 @@
 <ModelUnit modelid="SQ.WheatPhenology.GAImean" name="GAImean" timestep="1" version="1.0">
 	<Description>
 		<Title>Average GAI on a specific thermal time window</Title>
-		<Authors>Loïc Manceau</Authors>
-		<Institution>INRA</Institution>
-		<Reference>Modeling development phase in the 
-			Wheat Simulation Model SiriusQuality.
-			See documentation at http://www1.clermont.inra.fr/siriusquality/?page_id=427</Reference>
-		<Abstract>Calculate GAI mean</Abstract>
+		<Authors>Peter D. Jamieson, Glen S. Francis, Derick R. Wilson, Robert J. Martin</Authors>
+        <Institution>New Zealand Institute for Crop and Food Research Ltd.,
+            New Zealand Institute for Crop and Food Research Ltd.,
+            New Zealand Institute for Crop and Food Research Ltd.,
+            New Zealand Institute for Crop and Food Research Ltd.
+        </Institution>
+		<Reference>https://doi.org/10.1016/0168-1923(94)02214-5</Reference>
+		<ExtendedDescription>Calculate GAI mean</ExtendedDescription>
 		<ShortDescription>Calculate GAI mean</ShortDescription>
 	</Description>
 	<Inputs>

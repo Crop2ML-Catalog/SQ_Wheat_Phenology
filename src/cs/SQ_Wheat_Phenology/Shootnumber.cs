@@ -22,12 +22,15 @@ public class ShootNumber
         //- Name: ShootNumber -Version: 1.0, -Time step: 1
         //- Description:
     //            * Title: CalculateShootNumber Model
-    //            * Author: Pierre MARTRE
-    //            * Reference: Modeling development phase in the 
-    //                Wheat Simulation Model SiriusQuality.
-    //                See documentation at http://www1.clermont.inra.fr/siriusquality/?page_id=427
-    //            * Institution: INRA/LEPSE Montpellier
-    //            * Abstract: calculate the shoot number and update the related variables if needed
+    //            * Author: Peter D. Jamieson, Glen S. Francis, Derick R. Wilson, Robert J. Martin
+    //            * Reference: https://doi.org/10.1016/0168-1923(94)02214-5
+    //            * Institution: New Zealand Institute for Crop and Food Research Ltd.,
+    //            New Zealand Institute for Crop and Food Research Ltd.,
+    //            New Zealand Institute for Crop and Food Research Ltd.,
+    //            New Zealand Institute for Crop and Food Research Ltd.
+    //        
+    //            * ExtendedDescription: calculate the shoot number and update the related variables if needed
+    //            * ShortDescription: calculate the shoot number and update the related variables if needed
         //- inputs:
     //            * name: canopyShootNumber_t1
     //                          ** description : shoot number for the whole canopy

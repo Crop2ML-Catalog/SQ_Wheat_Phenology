@@ -22,12 +22,15 @@ public class PTQ
         //- Name: PTQ -Version: 1.0, -Time step: 1
         //- Description:
     //            * Title: Phyllochron Model
-    //            * Author: Pierre Martre
-    //            * Reference: Modeling development phase in the 
-    //                Wheat Simulation Model SiriusQuality.
-    //                See documentation at http://www1.clermont.inra.fr/siriusquality/?page_id=427
-    //            * Institution: INRA Montpellier
-    //            * Abstract: Calculate Photothermal Quaotient 
+    //            * Author: Peter D. Jamieson, Glen S. Francis, Derick R. Wilson, Robert J. Martin
+    //            * Reference: https://doi.org/10.1016/0168-1923(94)02214-5
+    //            * Institution: New Zealand Institute for Crop and Food Research Ltd.,
+    //            New Zealand Institute for Crop and Food Research Ltd.,
+    //            New Zealand Institute for Crop and Food Research Ltd.,
+    //            New Zealand Institute for Crop and Food Research Ltd.
+    //        
+    //            * ExtendedDescription: Calculate Photothermal Quaotient 
+    //            * ShortDescription: Calculate Photothermal Quaotient
         //- inputs:
     //            * name: tTWindowForPTQ
     //                          ** description : Thermal time window in which averages are computed

@@ -16,10 +16,15 @@ public class GAImean
         //- Name: GAImean -Version: 1.0, -Time step: 1
         //- Description:
     //            * Title: Average GAI on a specific thermal time window
-    //            * Author: Loïc Manceau
-    //            * Reference: -
-    //            * Institution: INRA
-    //            * Abstract: -
+    //            * Author: Peter D. Jamieson, Glen S. Francis, Derick R. Wilson, Robert J. Martin
+    //            * Reference: https://doi.org/10.1016/0168-1923(94)02214-5
+    //            * Institution: New Zealand Institute for Crop and Food Research Ltd.,
+    //            New Zealand Institute for Crop and Food Research Ltd.,
+    //            New Zealand Institute for Crop and Food Research Ltd.,
+    //            New Zealand Institute for Crop and Food Research Ltd.
+    //        
+    //            * ExtendedDescription: Calculate GAI mean
+    //            * ShortDescription: Calculate GAI mean
         //- inputs:
     //            * name: gAI
     //                          ** description : Green Area Index of the day

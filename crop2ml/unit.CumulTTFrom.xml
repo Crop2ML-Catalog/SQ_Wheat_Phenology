@@ -9,9 +9,7 @@
                     New Zealand Institute for Crop and Food Research Ltd.,
                     New Zealand Institute for Crop and Food Research Ltd.
         </Institution>
-        <Reference>Modeling development phase in the 
-                Wheat Simulation Model SiriusQuality.
-                See documentation at http://www1.clermont.inra.fr/siriusquality/?page_id=427</Reference>
+        <Reference>https://doi.org/10.1016/0168-1923(94)02214-5</Reference>
         <ExtendedDescription>Calculate the difference of the cumul thermal time at the current time and the one at three development phases  </ExtendedDescription>
         <ShortDescription>Difference of the cumul thermal times</ShortDescription>
     </Description>

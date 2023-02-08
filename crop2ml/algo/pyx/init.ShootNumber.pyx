@@ -1,6 +1,5 @@
 
-canopyShootNumber = sowingDensity
-averageShootNumberPerPlant = 1.0
-tilleringProfile.append(sowingDensity)
-numberTillerCohort = 1
-leafTillerNumberArray = []
+canopyShootNumber_t1 = sowingDensity
+tilleringProfile_t1.append(sowingDensity)
+numberTillerCohort_t1 = 1
+leafTillerNumberArray_t1 = []
